@@ -1,0 +1,73 @@
+/*.slider {
+
+    -fx-control-inner-background: brown!important;
+    -fx-progress-color: white;
+
+    -fx-pref-width: 10000px;
+    -fx-width: 400px;
+    -fx-max-width: -fx-width;
+    -fx-min-width: 200px;
+
+    -fx-text-fill: white;
+}
+
+.slider .track{
+
+
+}
+.slider .thumb{
+    -fx-background-color: yellow!important;
+}
+
+.slider .tick {
+    -fx-font-size: 200%!important;
+}
+
+
+ */
+
+/* Styling the slider track */
+.jfx-slider {
+    -thumb-colored-track-color: rgba(139,69,19, 1);
+
+    -fx-pref-width: 10000px;
+    -fx-width: 400px;
+    -fx-max-width: -fx-width;
+    -fx-min-width: 400px;
+
+}
+.jfx-slider > .track {
+    -fx-background-color: linear-gradient(to bottom right, #daa345, #fff9bc);
+    -fx-pref-height: 50px;
+    -fx-max-height:  50px;
+}
+
+/* Styling the slider thumb */
+.jfx-slider > .thumb {
+    -fx-background-color: rgb(109, 54, 18);
+    -fx-pref-height: 50px;
+    -fx-max-height:  50px;
+    -fx-pref-width: 50px;
+}
+
+/* Styling the filled track */
+.jfx-slider > .colored-track {
+    -fx-background-color: -thumb-colored-track-color;
+}
+
+/* Styling the animated thumb */
+.jfx-slider > .animated-thumb {
+    -fx-background-color: #ffd556;
+    -fx-pref-width: 60px;
+    -fx-pref-height: 60px;
+}
+
+/* Styling the slider value text inside animated thumb */
+.jfx-slider .slider-value {
+    -fx-fill: rgba(139,69,19, 1);
+    -fx-stroke: #ffda00;
+    -fx-stroke-width: 1px;
+    -fx-font-size: 150%;
+    -fx-font-family: "Comic Sans MS", "Comic Sans";
+    -fx-fill: white;
+}

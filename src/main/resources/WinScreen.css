@@ -1,0 +1,68 @@
+.root{
+    -fx-background-color: black;
+}
+
+.button{
+    -gradient-base: white;
+    -fx-background-color: -gradient-base;
+    -fx-background-radius: 12px;
+    -fx-padding: 20px, 40px;
+
+    -fx-pref-width: 10000px;
+    -fx-width: 400px;
+    -fx-max-width: -fx-width;
+    -fx-min-width: 400px;
+
+    -fx-pref-height: 10000px;
+    -fx-max-height:  100px;
+
+    -fx-outline: none;
+
+    -fx-border-radius: 12px;
+    -fx-border-color: white;
+    -fx-border-width: 3px;
+    -fx-border-style: solid;
+
+    -fx-font-family: "Comic Sans MS", "Comic Sans", cursive;
+    -fx-font-size: 300%;
+
+
+    -fx-text-fill: white;
+
+    -fx-transition-duration: 0.4s;
+}
+
+
+.button .text{
+    -fx-stroke: #ffda00;
+    -fx-stroke-width: 1px;
+}
+
+.button:hover{
+    -fx-background-color: -gradient-base;
+    -fx-background-radius: 12px;
+    -fx-opacity: 0.6;
+}
+
+.button:pressed{
+    -fx-background-color: -gradient-base;
+    -fx-background-radius: 12px;
+    -fx-opacity: 0.8;
+}
+
+.label {
+    -fx-font-family: "Comic Sans MS", "Comic Sans", cursive;
+    -fx-font-size: 600%, bold;
+    -gradient-base: rgba(139,69,19, 1);
+    -fx-text-fill:  -gradient-base, rgba(139,69,19, 0.4);
+    /*-fx-text-fill: linear-gradient(to bottom ,rgb(160,82,45), rgba(139,69,19, 0.5))*/
+    /*rgba(139,69,19, 0.3)*/
+
+
+}
+
+.label .text {
+
+    -fx-stroke: white;
+    -fx-stroke-width: 1px;
+}

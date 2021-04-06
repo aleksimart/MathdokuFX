@@ -1,0 +1,5 @@
+#canvas{
+    -fx-background-image: url("Board.jpg");
+    -fx-background-size: stretch /*-width -height*/;
+    -fx-background-position: center center;
+}
