@@ -1,0 +1,14 @@
+# InteliJ Related Files
+.idea/
+META-INF/
+*.iml
+out/
+.project
+.settings/
+
+# Production files
+target/
+
+# Maven files
+dependency-reduced-pom.xml
+
